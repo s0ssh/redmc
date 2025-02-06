@@ -4,8 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/redmc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/redmc.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/redmc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/redmc.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redmc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/redmc.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/redmc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/redmc.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sh.s0s.redmc.main.iml" filepath="$PROJECT_DIR$/.idea/modules/sh.s0s.redmc.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sh.s0s.redmc.test.iml" filepath="$PROJECT_DIR$/.idea/modules/sh.s0s.redmc.test.iml" />
     </modules>
   </component>
 </project>

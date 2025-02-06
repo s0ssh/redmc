@@ -1,6 +1,6 @@
-package org.redmc.redmc.mixin;
+package sh.s0s.redmc.mixin;
 
-import org.redmc.redmc.RedMCConstants;
+import sh.s0s.redmc.RedMCConstants;
 import io.netty.channel.ChannelHandlerContext;
 import net.minecraft.network.ClientConnection;
 import net.minecraft.network.PacketCallbacks;
@@ -42,6 +42,7 @@ public abstract class ClientConnectionMixin {
         // spoof resource pack acceptance
         if (packet instanceof ResourcePackSendS2CPacket resourcePackPacket) {
             ci.cancel();
+            System.out.println("Server Sent ResourcePack URL: \"" + resourcePackPacket.url() + "\"");
             ClientConnection connection = (ClientConnection) (Object) this;
             connection.send(new ResourcePackStatusC2SPacket(
                     resourcePackPacket.id(), ResourcePackStatusC2SPacket.Status.ACCEPTED

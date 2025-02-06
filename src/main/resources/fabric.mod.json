@@ -4,16 +4,16 @@
   "version": "${version}",
   "name": "redmc",
   "description": "a minecraft redteaming utility mod",
-  "authors": [ "brv.sh" ],
+  "authors": [ "s0s.sh" ],
   "contact": {
-    "homepage": "https://redmc.org"
+    "homepage": "https://github.com/s0ssh/redmc"
   },
   "license": "BSD 3-Clause",
   "icon": "assets/redmc_512.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "org.redmc.redmc.RedMCClient"
+      "sh.s0s.redmc.RedMCClient"
     ],
     "main": [
     ]
